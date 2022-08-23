@@ -1,0 +1,61 @@
+.main {
+    position: absolute;
+    right: 0.5rem;
+    font-family: 'Titillium Web', sans-serif;
+}
+h1 {
+    margin-top: 20px;
+}
+.main2 {
+    position: absolute;
+    top: 4rem;  
+}
+.ensavoirplus {
+    color: blue;
+    font-size: 13px;
+}
+img {
+    max-width: 100%;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2px;
+    margin: 0 90px;
+}
+
+.paragraphe {
+    display: block;
+    align-items: center;
+    justify-content: justify;
+    border: 1px solid blue;
+}
+.paragraphe:hover {
+    background: #AED6F1;
+    cursor: pointer;
+}
+.paragraphe p {
+    padding: 0 20px;
+}
+.ensavoir{
+    color: blue;
+    font-size: 13px;
+}
+.point, .demande, .ouverture, .double1, .double2 {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    font-size: 12px;
+}
+.point p, .demande p, .ouverture p, .double1 p, .double2 p {
+    margin: 0 20px;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+}
+.icon1 {
+    width: 70px;
+    height: 70px;
+}
