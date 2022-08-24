@@ -1,19 +1,16 @@
 import React from 'react'
 import '../styles/saulieu.css'
-//import Navbar from '../comps/Navbar';
 import { NavLink } from "react-router-dom";
 import {BsHandIndexThumb}from 'react-icons/bs';
 import {GrLocation}from 'react-icons/gr';
 import {GrIndicator}from 'react-icons/gr';
 
 
-
-
 export default function home() {
   return (
     <div className='main'>
-      <h1>Ici navbar ?</h1>
-    {/* <Navbar /> */}
+      <h3>Ici navigation dynamique pour changer le contenu des composants gauche & droite</h3>
+    
     <div className='container'>
       <div className='gauche'>
         <img src="map.jpg" alt="map" />
@@ -63,7 +60,7 @@ export default function home() {
             consequatur odio cumque repellendus numquam distinctio voluptate perspiciatis hic incidunt nulla. consequatur odio cumque repellendus numquam distinctio voluptate perspiciatis
             hic incidunt nulla.
           </p>
-            <NavLink to="/#" className='ensavoirplus'> En savoir plus </NavLink>
+            <NavLink to="/#" className='ensavoir'> En savoir plus </NavLink>
         </div>
         <div className='paragraphe'>
           <h2> Livraison gratuite chez vous dès 20€ </h2>
@@ -83,7 +80,7 @@ export default function home() {
             consequatur odio cumque repellendus numquam distinctio voluptate perspiciatis hic incidunt nulla. consequatur odio cumque repellendus numquam distinctio voluptate perspiciatis
             hic incidunt nulla.
           </p>
-            <NavLink to="/#" className='ensavoirplus'> En savoir plus </NavLink>
+            <NavLink to="/#" className='ensavoir'> En savoir plus </NavLink>
         </div>
       </div>
     </div>

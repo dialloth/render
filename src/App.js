@@ -9,12 +9,12 @@ import About from './pages/domicile'
 import Marche from './pages/marche'
 import NotFound from './pages/PageNotFound'
 import BlocGu from './pages/bloc'
-import Navbar from './comps/Navbar';
+//import Navbar from './comps/Navbar';
 
 function App() {
   return (
     <BrowserRouter>
-    <Navbar />
+    {/* <Navbar /> */}
         <Routes>
             <Route path="/" element={<Boutique />} />
             <Route path="domicile" element={<About />} />

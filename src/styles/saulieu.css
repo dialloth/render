@@ -10,13 +10,7 @@ h1 {
     position: absolute;
     top: 4rem;  
 }
-.ensavoirplus {
-    color: blue;
-    font-size: 13px;
-}
-img {
-    max-width: 100%;
-}
+
 .container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -27,7 +21,7 @@ img {
 .paragraphe {
     display: block;
     align-items: center;
-    justify-content: justify;
+    font-size: 14px;
     border: 1px solid blue;
 }
 .paragraphe:hover {
@@ -41,13 +35,21 @@ img {
     color: blue;
     font-size: 13px;
 }
-.point, .demande, .ouverture, .double1, .double2 {
+.point,
+.demande,
+.ouverture,
+.double1, 
+.double2 {
     display: flex;
     align-items: center;
     padding: 10px;
     font-size: 12px;
 }
-.point p, .demande p, .ouverture p, .double1 p, .double2 p {
+.point p, 
+.demande p,
+.ouverture p, 
+.double1 p, 
+.double2 p {
     margin: 0 20px;
 }
 
